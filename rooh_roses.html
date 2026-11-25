@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روح الورود | ROOH ROSES — حيث تلتقي الفخامة بالبساطة</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Amiri & Tajawal & Cormorant Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        velvet: {
+                            950: '#180822',
+                            900: '#2A1238',
+                            800: '#3B1850',
+                            700: '#4A1D66',
+                            600: '#632987',
+                            500: '#7E3BA8',
+                        },
+                        lavender: {
+                            50: '#F7F3FA',
+                            100: '#EFE7F6',
+                            200: '#EAE0F5',
+                            300: '#D6C2EC',
+                            400: '#BC9CE0',
+                        },
+                        champagne: {
+                            200: '#F2E5C6',
+                            300: '#E3CD96',
+                            400: '#C8A252',
+                            500: '#A88336',
+                        }
+                    },
+                    fontFamily: {
+                        editorial: ['Amiri', 'serif'],
+                        sans: ['Tajawal', 'sans-serif'],
+                        latin: ['Cormorant Garamond', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --velvet: #2A1238;
+            --plum: #4A1D66;
+            --lavender: #F7F3FA;
+            --lilac: #EAE0F5;
+            --gold: #C8A252;
+        }
+
+        body {
+            background-color: var(--lavender);
+            color: var(--velvet);
+            font-family: 'Tajawal', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* زخرفة ورقية ناعمة في الخلفية */
+        .atelier-texture {
+            background-image: radial-gradient(rgba(74, 29, 102, 0.06) 1px, transparent 1px);
+            background-size: 26px 26px;
+        }
+
+        /* إطارات مقوسة بأسلوب البوتيك الفرنسي */
+        .arch-frame {
+            border-radius: 9999px 9999px 2rem 2rem;
+        }
+
+        /* بطاقة الهوية ثلاثية الأبعاد القابلة للقلب */
+        .perspective-container {
+            perspective: 1400px;
+        }
+        .card-3d-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.85s cubic-bezier(0.23, 1, 0.32, 1);
+            transform-style: preserve-3d;
+        }
+        .card-3d-inner.is-flipped {
+            transform: rotateY(180deg);
+        }
+        .card-face {
+            position: absolute;
+            inset: 0;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            border-radius: 1.75rem;
+        }
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        /* تمرير ناعم لشريط الأخبار العلوي */
+        @keyframes marqueeSlow {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(50%); }
+        }
+        .animate-marquee {
+            display: flex;
+            width: max-content;
+            animation: marqueeSlow 28s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+
+        /* شريط التمرير المخصص */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F7F3FA;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4A1D66;
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="atelier-texture selection:bg-velvet-700 selection:text-white">
+
+    <!-- شريط علوي متحرك يعكس روح العلامة والمدرسة -->
+    <div class="bg-velvet-950 text-champagne-200 text-xs py-2 overflow-hidden border-b border-champagne-400/25">
+        <div class="animate-marquee gap-10 whitespace-nowrap font-medium tracking-wide">
+            <span>✦ روح الورود ROOH ROSES — حيث تلتقي الفخامة بالبساطة</span>
+            <span>✦ إبداع الطالبة نبأ عمايره • الصف الثاني ثانوي BTEC – أعمال</span>
+            <span>✦ مدرسة كفرالماء الثانوية الشاملة للبنات — حاضنة التميز والريادة</span>
+            <span>✦ الطلب المباشر والتنسيق الخاص عبر واتساب: 0775340403</span>
+            <span>✦ روح الورود ROOH ROSES — حيث تلتقي الفخامة بالبساطة</span>
+            <span>✦ إبداع الطالبة نبأ عمايره • الصف الثاني ثانوي BTEC – أعمال</span>
+            <span>✦ مدرسة كفرالماء الثانوية الشاملة للبنات — حاضنة التميز والريادة</span>
+            <span>✦ الطلب المباشر والتنسيق الخاص عبر واتساب: 0775340403</span>
+        </div>
+    </div>
+
+    <!-- الهيدر التحريري البسيط -->
+    <header class="sticky top-0 z-40 bg-lavender-50/90 backdrop-blur-xl border-b border-velvet-700/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
+            <!-- الشعار الملكي المخصص -->
+            <a href="#top" class="flex items-center gap-3.5 group">
+                <div class="w-12 h-12 rounded-2xl bg-velvet-900 border border-champagne-400/60 flex items-center justify-center shadow-lg shadow-velvet-900/20 group-hover:scale-105 transition-transform">
+                    <!-- Custom Purple & Champagne-Gold Floral Crest SVG -->
+                    <svg class="w-9 h-9" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="32" r="28" stroke="#C8A252" stroke-width="1.3" stroke-dasharray="2 2"/>
+                        <circle cx="32" cy="32" r="23" stroke="#C8A252" stroke-width="0.7" opacity="0.6"/>
+                        <!-- Rose Petals Silhouette -->
+                        <path d="M32 14C26 14 21 19 21 25C21 31.5 27.5 35.5 32 38C36.5 35.5 43 31.5 43 25C43 19 38 14 32 14Z" fill="#4A1D66" stroke="#C8A252" stroke-width="1.5"/>
+                        <path d="M32 18C28.5 18 26 20.8 26 24.2C26 27.8 29.5 30.2 32 31.8C34.5 30.2 38 27.8 38 24.2C38 20.8 35.5 18 32 18Z" fill="#2A1238" stroke="#E3CD96" stroke-width="1.2"/>
+                        <path d="M32 21.5C30.3 21.5 29 22.8 29 24.5C29 26.2 30.5 27.5 32 28.5C33.5 27.5 35 26.2 35 24.5C35 22.8 33.7 21.5 32 21.5Z" fill="#C8A252"/>
+                        <!-- Stem & Leaves -->
+                        <path d="M32 38V50" stroke="#C8A252" stroke-width="1.6" stroke-linecap="round"/>
+                        <path d="M32 44C27.5 41.5 24 43 22 46C25.5 47 29.5 46 32 44Z" fill="#C8A252"/>
+                        <path d="M32 42C36.5 39.5 40 41 42 44C38.5 45 34.5 44 32 42Z" fill="#C8A252"/>
+                    </svg>
+                </div>
+                <div>
+                    <div class="flex items-baseline gap-2">
+                        <span class="font-editorial text-2xl font-bold text-velvet-900">روح الورود</span>
+                        <span class="font-latin text-sm font-bold tracking-[0.22em] text-champagne-500">ROOH ROSES</span>
+                    </div>
+                    <p class="text-[11px] text-velvet-700/80 font-medium">حيث تلتقي الفخامة بالبساطة</p>
+                </div>
+            </a>
+
+            <!-- روابط التنقل -->
+            <nav class="hidden lg:flex items-center gap-8 text-sm font-bold text-velvet-900">
+                <a href="#atelier-story" class="hover:text-champagne-500 transition-colors">قصة العلامة والمدرسة</a>
+                <a href="#lookbook" class="hover:text-champagne-500 transition-colors">كتالوج الباقات</a>
+                <a href="#studio" class="hover:text-champagne-500 transition-colors">استوديو تصميم هديتك</a>
+                <a href="#identity-card" class="hover:text-champagne-500 transition-colors">بطاقة الهوية</a>
+            </nav>
+
+            <!-- زر فتح حقيبة الطلبات / واتساب المباشر -->
+            <div class="flex items-center gap-3">
+                <button type="button" onclick="toggleOrderDrawer()" class="relative inline-flex items-center gap-2.5 px-4 py-2.5 rounded-full bg-velvet-900 text-champagne-200 border border-champagne-400/50 text-xs sm:text-sm font-bold hover:bg-velvet-700 transition-all shadow-md">
+                    <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                    <span class="hidden sm:inline">حقيبة الطلب</span>
+                    <span id="bag-count" class="w-5 h-5 rounded-full bg-champagne-400 text-velvet-950 text-[11px] font-extrabold flex items-center justify-center">0</span>
+                </button>
+                <button type="button" onclick="toggleMobileNav()" class="lg:hidden w-10 h-10 rounded-full bg-lavender-200 text-velvet-900 flex items-center justify-center">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- قائمة الجوال -->
+        <div id="mobile-nav" class="hidden lg:hidden bg-lavender-50 border-t border-velvet-700/10 px-6 py-4 space-y-3 text-sm font-bold text-velvet-900">
+            <a href="#atelier-story" onclick="toggleMobileNav()" class="block py-1.5">قصة العلامة والمدرسة</a>
+            <a href="#lookbook" onclick="toggleMobileNav()" class="block py-1.5">كتالوج الباقات</a>
+            <a href="#studio" onclick="toggleMobileNav()" class="block py-1.5">استوديو تصميم هديتك</a>
+            <a href="#identity-card" onclick="toggleMobileNav()" class="block py-1.5">بطاقة الهوية والتواصل</a>
+        </div>
+    </header>
+
+    <!-- 1. الواجهة التحريرية المقسّمة (Split-Screen Editorial Hero) -->
+    <section id="top" class="relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 py-12 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+                <!-- الجانب الأيمن: القصة والشعار التحريري -->
+                <div class="lg:col-span-6 space-y-7 text-right">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-velvet-900/5 border border-velvet-700/20 text-velvet-800 text-xs font-bold">
+                        <span class="w-2 h-2 rounded-full bg-champagne-400"></span>
+                        <span>دار تنسيق الزهور وتغليف الهدايا • BTEC أعمال</span>
+                    </div>
+
+                    <div class="space-y-3">
+                        <p class="font-latin text-lg sm:text-xl tracking-[0.28em] text-champagne-500 font-bold uppercase">
+                            ROOH ROSES ATELIER
+                        </p>
+                        <h1 class="font-editorial text-4xl sm:text-6xl lg:text-[4.1rem] font-bold text-velvet-900 leading-[1.18]">
+                            حيث تلتقي <span class="text-velvet-600 italic">الفخامة</span> بالبساطة في كل بتلة
+                        </h1>
+                    </div>
+
+                    <p class="text-base sm:text-lg text-velvet-900/80 leading-relaxed max-w-xl">
+                        في <strong>روح الورود (ROOH ROSES)</strong>، نؤمن أن كل باقة ورد وكل هدية هي حكاية جميلة تعبّر عن أصدق المشاعر. تصاميم يدوية متقنة بتفاصيل الساتان واللؤلؤ والتغليف الأنيق، أبدعتها الطالبة <strong>نبأ عمايره</strong> ضمن مسار <strong>الثاني ثانوي BTEC – أعمال</strong> في <strong>مدرسة كفرالماء الثانوية الشاملة للبنات</strong>.
+                    </p>
+
+                    <!-- أزرار الدعوة لاتخاذ إجراء -->
+                    <div class="flex flex-wrap items-center gap-4 pt-2">
+                        <a href="#studio" class="inline-flex items-center gap-3 px-7 py-4 rounded-full bg-velvet-900 text-champagne-200 border border-champagne-400/60 font-bold text-sm shadow-xl shadow-velvet-900/20 hover:bg-velvet-700 hover:-translate-y-0.5 transition-all">
+                            <i class="fa-solid fa-wand-magic-sparkles text-champagne-400"></i>
+                            <span>صمّمي باقتكِ وأرسليها لواتساب</span>
+                        </a>
+                        <a href="#lookbook" class="inline-flex items-center gap-2.5 px-6 py-4 rounded-full bg-white/80 text-velvet-900 border border-velvet-700/20 font-bold text-sm hover:bg-lavender-200 transition-all">
+                            <span>تصفحي الكتالوج</span>
+                            <i class="fa-solid fa-arrow-down text-xs text-champagne-500"></i>
+                        </a>
+                    </div>
+
+                    <!-- شريط إحصائي وصفي بدون أسعار -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-velvet-700/15 max-w-lg">
+                        <div>
+                            <p class="font-editorial text-xl font-bold text-velvet-900">نبأ عمايره</p>
+                            <p class="text-xs text-velvet-700/75">مؤسسة العلامة التجارية</p>
+                        </div>
+                        <div>
+                            <p class="font-editorial text-xl font-bold text-velvet-900">BTEC أعمال</p>
+                            <p class="text-xs text-velvet-700/75">كفرالماء الثانوية للبنات</p>
+                        </div>
+                        <div>
+                            <p class="font-editorial text-xl font-bold text-emerald-700" dir="ltr">0775340403</p>
+                            <p class="text-xs text-velvet-700/75">طلب مباشر عبر واتساب</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- الجانب الأيسر: إطار مقوس فاخر للصورة الأيقونية 1.jpeg -->
+                <div class="lg:col-span-6 relative flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <!-- هالة بنفسجية ذهبية خلف الإطار -->
+                        <div class="absolute -inset-4 arch-frame bg-gradient-to-b from-champagne-400/35 via-velvet-700/20 to-transparent blur-xl"></div>
+
+                        <div class="relative arch-frame overflow-hidden border-4 border-white shadow-2xl shadow-velvet-950/25 bg-velvet-900 aspect-[4/5]">
+                            <img data-local-img="1" alt="باقة الساتان المخملي العنابي مع الفراشة الذهبية - روح الورود" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-velvet-950/85 via-velvet-950/20 to-transparent"></div>
+                            <div class="absolute bottom-6 inset-x-6 text-white text-right">
+                                <span class="inline-block px-3 py-1 rounded-full bg-champagne-400/25 backdrop-blur-md border border-champagne-300/40 text-champagne-200 text-[11px] font-bold mb-2">
+                                    التوقيع الملكي • Signature Edition
+                                </span>
+                                <h2 class="font-editorial text-2xl font-bold leading-snug">باقة الساتان المخملي العنابي مع الفراشة الذهبية</h2>
+                                <p class="text-xs text-lavender-200 mt-1">تغليف أبيض فاخر وشريطة ساتان يدوية</p>
+                            </div>
+                        </div>
+
+                        <!-- بطاقة عائمة صغيرة لطلب الباقة الأيقونية فوراً -->
+                        <button type="button" onclick="orderSingleBouquet('باقة الساتان المخملي العنابي مع الفراشة الذهبية وتغليف أبيض فاخر')" class="absolute -bottom-5 right-4 sm:-right-6 bg-white/95 backdrop-blur-md px-5 py-3.5 rounded-2xl shadow-xl border border-champagne-400/50 flex items-center gap-3 hover:scale-105 transition-transform text-right">
+                            <span class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </span>
+                            <div>
+                                <p class="text-[11px] font-bold text-champagne-500">اطلبي هذا التصميم مباشرة</p>
+                                <p class="text-xs font-extrabold text-velvet-900">تواصل فوري عبر واتساب</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. قصة العلامة ودور مدرسة كفرالماء الثانوية الشاملة للبنات BTEC -->
+    <section id="atelier-story" class="py-20 bg-velvet-900 text-lavender-50 relative overflow-hidden">
+        <!-- زخرفة دائرية ذهبية خفيفة -->
+        <div class="absolute -top-32 -left-32 w-96 h-96 rounded-full border border-champagne-400/15 pointer-events-none"></div>
+        <div class="absolute -bottom-40 -right-24 w-[28rem] h-[28rem] rounded-full bg-velvet-700/40 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <!-- عمود الرسالة والرؤية -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-champagne-400/15 border border-champagne-400/40 text-champagne-300 text-xs font-bold">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>ريادة الأعمال الطلابية • مسار BTEC أعمال</span>
+                    </div>
+
+                    <h2 class="font-editorial text-3xl sm:text-5xl font-bold text-white leading-tight">
+                        من مقاعد <span class="text-champagne-300">مدرسة كفرالماء الثانوية الشاملة للبنات</span> إلى علامة تجارية تنبض بالجمال
+                    </h2>
+
+                    <p class="text-lavender-200/90 text-base sm:text-lg leading-relaxed">
+                        انطلق مشروع <strong>روح الورود (ROOH ROSES)</strong> برؤية إبداعية من الطالبة <strong>نبأ عمايره</strong> في الصف <strong>الثاني ثانوي BTEC – أعمال</strong>، حيث شكّل قسم الأعمال BTEC في <strong>مدرسة كفرالماء الثانوية الشاملة للبنات</strong> الحاضنة التعليمية والعملية التي حوّلت شغفها بتنسيق الورود وتغليف الهدايا إلى علامة تجارية متكاملة ذات هوية بصرية، واستراتيجية تسويق رقمي عبر Instagram، وتجربة عملاء راقية.
+                    </p>
+
+                    <!-- بطاقة رسالة المشروع -->
+                    <div class="p-6 rounded-3xl bg-velvet-950/60 border-r-4 border-champagne-400 space-y-2">
+                        <p class="text-xs font-bold text-champagne-300 tracking-wider">رسالة روح الورود</p>
+                        <p class="font-editorial text-xl sm:text-2xl text-white italic leading-relaxed">
+                            «أن تكون كل باقة ورد وكل هدية حكاية جميلة تعبّر عن المشاعر، وتجمع بين الفخامة والبساطة.»
+                        </p>
+                    </div>
+                </div>
+
+                <!-- عمود ركائز التميز (3 بطاقات تحريرية) -->
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="p-6 rounded-3xl bg-white/5 border border-champagne-400/25 backdrop-blur-sm">
+                        <div class="flex items-start gap-4">
+                            <div class="w-11 h-11 rounded-2xl bg-champagne-400/20 text-champagne-300 flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-solid fa-school"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-editorial text-xl font-bold text-white">تمكين BTEC في كفرالماء الثانوية للبنات</h3>
+                                <p class="text-xs sm:text-sm text-lavender-200/80 mt-1.5 leading-relaxed">
+                                    تطبيق عملي لمفاهيم بناء الهوية التجارية، التخطيط التسويقي، وتصميم تجربة إهداء احترافية تلبي تطلعات العملاء.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-3xl bg-white/5 border border-champagne-400/25 backdrop-blur-sm">
+                        <div class="flex items-start gap-4">
+                            <div class="w-11 h-11 rounded-2xl bg-champagne-400/20 text-champagne-300 flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-solid fa-gem"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-editorial text-xl font-bold text-white">نقطة التميز في التفاصيل</h3>
+                                <p class="text-xs sm:text-sm text-lavender-200/80 mt-1.5 leading-relaxed">
+                                    تنسيق ورود الساتان الفاخرة مع اللؤلؤ والفراشات وأوراق التغليف ذات الحواف الذهبية بأسلوب يوازن بين الرقي والبساطة.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-3xl bg-white/5 border border-champagne-400/25 backdrop-blur-sm">
+                        <div class="flex items-start gap-4">
+                            <div class="w-11 h-11 rounded-2xl bg-champagne-400/20 text-champagne-300 flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-editorial text-xl font-bold text-white">التسويق الرقمي والتواصل المباشر</h3>
+                                <p class="text-xs sm:text-sm text-lavender-200/80 mt-1.5 leading-relaxed">
+                                    عرض التصاميم عبر منصة Instagram (<span dir="ltr" class="text-champagne-300 font-bold">@roohroses</span>) واستقبال الطلبات المخصصة مباشرة عبر واتساب.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. كتالوج الباقات والهدايا بنمط غير متماثل (Asymmetric Lookbook Gallery) -->
+    <section id="lookbook" class="py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+
+            <!-- عنوان القسم وأزرار التصفية -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
+                <div>
+                    <span class="text-xs font-bold tracking-[0.2em] text-champagne-500 uppercase">ROOH ROSES LOOKBOOK</span>
+                    <h2 class="font-editorial text-3xl sm:text-5xl font-bold text-velvet-900 mt-2">معرض الباقات وتنسيقات الهدايا</h2>
+                    <p class="text-sm sm:text-base text-velvet-900/75 mt-2 max-w-xl">
+                        اختاري الباقة التي تعبّر عن مناسبتكِ لطلبها فوراً عبر واتساب أو إضافتها إلى حقيبة التنسيق الخاصة بكِ.
+                    </p>
+                </div>
+
+                <!-- أزرار تصفية الفئات -->
+                <div class="flex flex-wrap gap-2" id="lookbook-filters">
+                    <button type="button" data-cat="all" class="cat-btn px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-velvet-900 text-champagne-200 shadow-sm transition-all">جميع التنسيقات</button>
+                    <button type="button" data-cat="bouquet" class="cat-btn px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-velvet-900 border border-velvet-700/20 hover:bg-lavender-200 transition-all">الباقات الفاخرة</button>
+                    <button type="button" data-cat="cone" class="cat-btn px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-velvet-900 border border-velvet-700/20 hover:bg-lavender-200 transition-all">كون الهدايا الذهبي</button>
+                    <button type="button" data-cat="single" class="cat-btn px-4 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-velvet-900 border border-velvet-700/20 hover:bg-lavender-200 transition-all">الورود المنفردة والثنائية</button>
+                </div>
+            </div>
+
+            <!-- شبكة غير متماثلة (Masonry / Staggered Lookbook) -->
+            <div id="lookbook-grid" class="columns-1 sm:columns-2 lg:columns-3 gap-7 space-y-7">
+                <!-- يتم توليد البطاقات ديناميكياً عبر JavaScript -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. استوديو تصميم الباقة والهدية المخصصة (Custom Bouquet & Gift Studio) -->
+    <section id="studio" class="py-20 bg-lavender-200/70 border-y border-velvet-700/15">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="inline-block px-4 py-1 rounded-full bg-velvet-900 text-champagne-300 text-xs font-bold mb-3">
+                    تجربة إهداء مصممة خصيصاً لكِ
+                </span>
+                <h2 class="font-editorial text-3xl sm:text-5xl font-bold text-velvet-900">صمّمي هديتكِ وأرسليها لواتساب</h2>
+                <p class="text-sm sm:text-base text-velvet-900/75 mt-3">
+                    حددي أسلوب التنسيق، لون التغليف والشريطة، المناسبة، واكتبي عبارة بطاقة الإهداء لتصل تفاصيل طلبكِ مرتبة مباشرة إلى الطالبة <strong>نبأ عمايره</strong> على الرقم <strong dir="ltr">0775340403</strong>.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+                <!-- لوحة التخصيص التفاعلية (7 أعمدة) -->
+                <div class="lg:col-span-7 bg-white rounded-[2rem] p-6 sm:p-10 shadow-xl shadow-velvet-900/10 border border-velvet-700/15 space-y-7">
+
+                    <!-- الخطوة 1: اختيار أسلوب التنسيق -->
+                    <div>
+                        <label class="block text-sm font-extrabold text-velvet-900 mb-3">
+                            <span class="inline-flex w-6 h-6 rounded-full bg-velvet-900 text-champagne-300 text-xs items-center justify-center ml-2">1</span>
+                            اختاري أسلوب التنسيق أو الباقة الأساسية
+                        </label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="studio-styles">
+                            <button type="button" onclick="selectStudioOption('style', 'باقة اللافندر البنفسجي الحريري بحواف ذهبية', this)" class="studio-style-btn active-opt p-3.5 rounded-2xl border-2 border-velvet-900 bg-lavender-100 text-right transition-all">
+                                <p class="text-xs font-extrabold text-velvet-900">باقة اللافندر البنفسجي الحريري</p>
+                                <p class="text-[11px] text-velvet-700/80 mt-0.5">تغليف أبيض بحواف ذهبية أو أسود ملكي</p>
+                            </button>
+                            <button type="button" onclick="selectStudioOption('style', 'باقة الساتان المخملي العنابي مع الفراشة الذهبية', this)" class="studio-style-btn p-3.5 rounded-2xl border border-velvet-700/20 bg-lavender-50/60 hover:bg-lavender-100 text-right transition-all">
+                                <p class="text-xs font-extrabold text-velvet-900">باقة الساتان المخملي العنابي</p>
+                                <p class="text-[11px] text-velvet-700/80 mt-0.5">مع فراشة ذهبية وشريطة ساتان</p>
+                            </button>
+                            <button type="button" onclick="selectStudioOption('style', 'باقة الساتان الوردي المرصعة باللؤلؤ وتغليف التول', this)" class="studio-style-btn p-3.5 rounded-2xl border border-velvet-700/20 bg-lavender-50/60 hover:bg-lavender-100 text-right transition-all">
+                                <p class="text-xs font-extrabold text-velvet-900">باقة الساتان الوردي اللؤلؤي</p>
+                                <p class="text-[11px] text-velvet-700/80 mt-0.5">مرصعة بحبات اللؤلؤ وتغليف التول</p>
+                            </button>
+                            <button type="button" onclick="selectStudioOption('style', 'كون هدية الوردة المفردة بإطار ذهبي وفيونكة ساتان', this)" class="studio-style-btn p-3.5 rounded-2xl border border-velvet-700/20 bg-lavender-50/60 hover:bg-lavender-100 text-right transition-all">
+                                <p class="text-xs font-extrabold text-velvet-900">كون هدية الوردة المفردة الفاخر</p>
+                                <p class="text-[11px] text-velvet-700/80 mt-0.5">وردي برونزي، أسود ملكي، أو أزرق</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- الخطوة 2: اختيار طابع التغليف والشريطة -->
+                    <div>
+                        <label class="block text-sm font-extrabold text-velvet-900 mb-3">
+                            <span class="inline-flex w-6 h-6 rounded-full bg-velvet-900 text-champagne-300 text-xs items-center justify-center ml-2">2</span>
+                            طابع التغليف والشريطة الحريرية
+                        </label>
+                        <div class="flex flex-wrap gap-2.5" id="studio-wrappings">
+                            <button type="button" onclick="selectStudioOption('wrapping', 'تغليف أبيض نقي بحواف ذهبية وشريطة بنفسجية', this)" class="studio-wrap-btn active-wrap px-4 py-2.5 rounded-xl border-2 border-velvet-900 bg-lavender-100 text-xs font-bold text-velvet-900">
+                                أبيض بحواف ذهبية + بنفسجي
+                            </button>
+                            <button type="button" onclick="selectStudioOption('wrapping', 'تغليف أسود ملكي مطفي مع شريطة بنفسجية', this)" class="studio-wrap-btn px-4 py-2.5 rounded-xl border border-velvet-700/20 bg-white text-xs font-bold text-velvet-900 hover:bg-lavender-100">
+                                أسود ملكي + شريطة بنفسجية
+                            </button>
+                            <button type="button" onclick="selectStudioOption('wrapping', 'تغليف تول أبيض ناعم مع لمسات لؤلؤية', this)" class="studio-wrap-btn px-4 py-2.5 rounded-xl border border-velvet-700/20 bg-white text-xs font-bold text-velvet-900 hover:bg-lavender-100">
+                                تول أبيض ناعم + لؤلؤ
+                            </button>
+                            <button type="button" onclick="selectStudioOption('wrapping', 'تنسيق خاص بألوان من اختياري', this)" class="studio-wrap-btn px-4 py-2.5 rounded-xl border border-velvet-700/20 bg-white text-xs font-bold text-velvet-900 hover:bg-lavender-100">
+                                ألوان مخصصة حسب الطلب
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- الخطوة 3: المناسبة وبيانات بطاقة الإهداء -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="studio-occasion" class="block text-xs font-extrabold text-velvet-900 mb-1.5">المناسبة السعيدة</label>
+                            <select id="studio-occasion" oninput="updateStudioPreview()" class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm font-medium text-velvet-900 focus:outline-none focus:border-velvet-700">
+                                <option value="تخرج ونجاح">تخرج ونجاح</option>
+                                <option value="عيد ميلاد">عيد ميلاد</option>
+                                <option value="تهنئة ومناسبة خاصة">تهنئة ومناسبة خاصة</option>
+                                <option value="شكر وتقدير">شكر وتقدير</option>
+                                <option value="هدية مفاجئة بدون مناسبة">هدية مفاجئة بدون مناسبة</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="studio-city" class="block text-xs font-extrabold text-velvet-900 mb-1.5">المدينة / المنطقة للتوصيل</label>
+                            <input type="text" id="studio-city" oninput="updateStudioPreview()" placeholder="مثال: إربد / لواء الكورة / كفرالماء" class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm text-velvet-900 focus:outline-none focus:border-velvet-700">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="studio-sender" class="block text-xs font-extrabold text-velvet-900 mb-1.5">اسمكِ الكريم (مُقدِّم الهدية) *</label>
+                            <input type="text" id="studio-sender" oninput="updateStudioPreview()" placeholder="اكتبي اسمكِ هنا" class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm text-velvet-900 focus:outline-none focus:border-velvet-700">
+                        </div>
+                        <div>
+                            <label for="studio-recipient" class="block text-xs font-extrabold text-velvet-900 mb-1.5">اسم المُهدى إليه (اختياري)</label>
+                            <input type="text" id="studio-recipient" oninput="updateStudioPreview()" placeholder="اسم الشخص المهدى إليه" class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm text-velvet-900 focus:outline-none focus:border-velvet-700">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="studio-card-msg" class="block text-xs font-extrabold text-velvet-900 mb-1.5">عبارة بطاقة الإهداء المرفقة مع الباقة</label>
+                        <textarea id="studio-card-msg" rows="3" oninput="updateStudioPreview()" placeholder="اكتبي العبارة التي تودين طباعتها أو كتابتها على بطاقة روح الورود..." class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm text-velvet-900 focus:outline-none focus:border-velvet-700"></textarea>
+                    </div>
+                </div>
+
+                <!-- المعاينة الحية للبطاقة وزر الإرسال المباشر لواتساب (5 أعمدة) -->
+                <div class="lg:col-span-5 space-y-5 lg:sticky lg:top-28">
+                    <div class="rounded-[2rem] bg-velvet-900 text-white p-7 sm:p-8 shadow-2xl border border-champagne-400/50 relative overflow-hidden">
+                        <div class="flex items-center justify-between border-b border-white/15 pb-4 mb-5">
+                            <div>
+                                <p class="text-[11px] text-champagne-300 font-bold">معاينة بطاقة الطلب الفورية</p>
+                                <h3 class="font-editorial text-2xl font-bold">روح الورود • ROOH ROSES</h3>
+                            </div>
+                            <span class="w-10 h-10 rounded-full bg-champagne-400/20 border border-champagne-400/50 flex items-center justify-center text-champagne-300">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </span>
+                        </div>
+
+                        <div class="space-y-3 text-xs sm:text-sm text-lavender-100">
+                            <div class="flex justify-between gap-2">
+                                <span class="text-champagne-300 font-bold shrink-0">التنسيق المختار:</span>
+                                <span id="prev-style" class="text-left font-medium">باقة اللافندر البنفسجي الحريري بحواف ذهبية</span>
+                            </div>
+                            <div class="flex justify-between gap-2">
+                                <span class="text-champagne-300 font-bold shrink-0">التغليف والشريطة:</span>
+                                <span id="prev-wrapping" class="text-left font-medium">تغليف أبيض نقي بحواف ذهبية وشريطة بنفسجية</span>
+                            </div>
+                            <div class="flex justify-between gap-2">
+                                <span class="text-champagne-300 font-bold shrink-0">المناسبة:</span>
+                                <span id="prev-occasion" class="text-left font-medium">تخرج ونجاح</span>
+                            </div>
+                            <div class="flex justify-between gap-2">
+                                <span class="text-champagne-300 font-bold shrink-0">من / إلى:</span>
+                                <span id="prev-names" class="text-left font-medium">لم يُحدد بعد</span>
+                            </div>
+                            <div class="flex justify-between gap-2">
+                                <span class="text-champagne-300 font-bold shrink-0">المنطقة:</span>
+                                <span id="prev-city" class="text-left font-medium">يُحدد عبر واتساب</span>
+                            </div>
+                        </div>
+
+                        <!-- معاينة بطاقة الإهداء -->
+                        <div class="mt-5 p-4 rounded-2xl bg-velvet-950/70 border border-champagne-400/30 text-center">
+                            <p class="text-[10px] text-champagne-300 uppercase tracking-widest mb-1">نص بطاقة الإهداء</p>
+                            <p id="prev-card-text" class="font-editorial text-lg italic text-white">«كل باقة ورد هي حكاية جميلة تعبّر عن المشاعر»</p>
+                        </div>
+
+                        <!-- زر الانتقال المباشر للواتساب 0775340403 -->
+                        <button type="button" onclick="sendCustomStudioToWhatsApp()" class="mt-6 w-full py-4 px-5 rounded-2xl bg-gradient-to-l from-emerald-600 to-green-500 hover:from-emerald-500 hover:to-green-400 text-white font-extrabold text-sm sm:text-base shadow-xl transition-all flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>أرسلي الطلب عبر واتساب (0775340403)</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. بطاقة الهوية التعريفية ثلاثية الأبعاد وقنوات التواصل (3D Flippable Business Card) -->
+    <section id="identity-card" class="py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <!-- البطاقة ثلاثية الأبعاد القابلة للقلب -->
+                <div class="lg:col-span-6 flex flex-col items-center">
+                    <div class="perspective-container w-full max-w-md h-72 sm:h-80 cursor-pointer" onclick="flipBusinessCard()" title="اضغطي لقلب البطاقة">
+                        <div id="business-card-3d" class="card-3d-inner">
+
+                            <!-- الوجه الأمامي للبطاقة -->
+                            <div class="card-face bg-gradient-to-br from-velvet-900 via-velvet-800 to-velvet-950 border-2 border-champagne-400/70 p-7 sm:p-9 text-white shadow-2xl flex flex-col justify-between">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <span class="font-latin text-xs tracking-[0.25em] text-champagne-300 uppercase block">Luxury Floral Atelier</span>
+                                        <h3 class="font-editorial text-3xl sm:text-4xl font-bold text-white mt-1">روح الورود</h3>
+                                        <p class="font-latin text-lg tracking-[0.2em] text-champagne-400 font-bold">ROOH ROSES</p>
+                                    </div>
+                                    <div class="w-14 h-14 rounded-2xl bg-white/5 border border-champagne-400/50 flex items-center justify-center">
+                                        <svg class="w-10 h-10" viewBox="0 0 64 64" fill="none">
+                                            <circle cx="32" cy="32" r="27" stroke="#C8A252" stroke-width="1.4"/>
+                                            <path d="M32 15C26 15 22 19.5 22 25C22 31 28 35 32 37.5C36 35 42 31 42 25C42 19.5 38 15 32 15Z" fill="#632987" stroke="#E3CD96" stroke-width="1.4"/>
+                                            <path d="M32 37.5V49" stroke="#C8A252" stroke-width="1.6" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <p class="font-editorial text-lg italic text-champagne-200">«حيث تلتقي الفخامة بالبساطة»</p>
+                                    <div class="pt-3 border-t border-white/15 flex items-center justify-between text-xs text-lavender-200">
+                                        <span>الطالبة نبأ عمايره • BTEC أعمال</span>
+                                        <span class="text-champagne-300 font-bold flex items-center gap-1">
+                                            <i class="fa-solid fa-rotate"></i> اقلبي البطاقة
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- الوجه الخلفي للبطاقة (بيانات التواصل والمدرسة) -->
+                            <div class="card-face card-back bg-white border-2 border-velvet-800 p-7 sm:p-9 text-velvet-900 shadow-2xl flex flex-col justify-between">
+                                <div class="flex items-center justify-between border-b border-velvet-700/15 pb-3">
+                                    <div>
+                                        <h4 class="font-editorial text-2xl font-bold text-velvet-900">نبأ عمايره</h4>
+                                        <p class="text-xs font-bold text-velvet-600">الثاني ثانوي BTEC – أعمال • مدرسة كفرالماء الثانوية الشاملة للبنات</p>
+                                    </div>
+                                    <span class="px-2.5 py-1 rounded-full bg-lavender-200 text-velvet-900 text-[10px] font-extrabold">ROOH ROSES</span>
+                                </div>
+
+                                <div class="space-y-2.5 text-xs sm:text-sm font-bold">
+                                    <div class="flex items-center gap-3 text-velvet-900">
+                                        <span class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center"><i class="fa-brands fa-whatsapp"></i></span>
+                                        <span dir="ltr">0775340403</span>
+                                    </div>
+                                    <div class="flex items-center gap-3 text-velvet-900">
+                                        <span class="w-8 h-8 rounded-lg bg-lavender-200 text-velvet-800 flex items-center justify-center"><i class="fa-brands fa-instagram"></i></span>
+                                        <span dir="ltr">@roohroses</span>
+                                    </div>
+                                    <div class="flex items-center gap-3 text-velvet-900">
+                                        <span class="w-8 h-8 rounded-lg bg-champagne-200 text-champagne-500 flex items-center justify-center"><i class="fa-solid fa-envelope"></i></span>
+                                        <span dir="ltr" class="truncate">nabamayreh122@gmail.com</span>
+                                    </div>
+                                </div>
+
+                                <p class="text-[11px] text-center text-velvet-700/75">تنسيق الورود • تصميم الهدايا • تغليف وتجهيز المناسبات</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button type="button" onclick="flipBusinessCard()" class="mt-4 inline-flex items-center gap-2 text-xs font-bold text-velvet-700 hover:text-velvet-950">
+                        <i class="fa-solid fa-arrows-rotate text-champagne-500"></i>
+                        <span>اضغطي لقلب بطاقة التعريف الاحترافية</span>
+                    </button>
+                </div>
+
+                <!-- روابط التواصل السريعة -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs font-bold tracking-widest text-champagne-500 uppercase">تواصلي مع روح الورود</span>
+                    <h2 class="font-editorial text-3xl sm:text-4xl font-bold text-velvet-900">بطاقة الهوية الرقمية وقنوات الطلب المباشر</h2>
+                    <p class="text-sm sm:text-base text-velvet-900/80 leading-relaxed">
+                        يمكنكِ التواصل مباشرة مع الطالبة <strong>نبأ عمايره</strong> عبر واتساب أو متابعة أحدث تنسيقات <strong>ROOH ROSES</strong> على منصة Instagram.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <a href="https://wa.me/962775340403?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%86%D8%A8%D8%A3%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D9%88%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D9%88%D8%B1%D9%88%D8%AF%20ROOH%20ROSES" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl bg-emerald-600 text-white shadow-lg hover:bg-emerald-700 transition-all flex items-center gap-3.5">
+                            <i class="fa-brands fa-whatsapp text-3xl"></i>
+                            <div>
+                                <p class="text-xs text-emerald-100">الطلب السريع عبر واتساب</p>
+                                <p class="font-extrabold text-base" dir="ltr">0775340403</p>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/roohroses" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl bg-velvet-900 text-white shadow-lg hover:bg-velvet-700 transition-all flex items-center gap-3.5 border border-champagne-400/40">
+                            <i class="fa-brands fa-instagram text-3xl text-champagne-300"></i>
+                            <div>
+                                <p class="text-xs text-lavender-200">حساب الإنستغرام الرسمي</p>
+                                <p class="font-extrabold text-base" dir="ltr">@roohroses</p>
+                            </div>
+                        </a>
+
+                        <a href="mailto:nabamayreh122@gmail.com" class="sm:col-span-2 p-4 rounded-2xl bg-white border border-velvet-700/20 text-velvet-900 hover:bg-lavender-100 transition-all flex items-center gap-3.5">
+                            <span class="w-10 h-10 rounded-xl bg-champagne-200 text-champagne-500 flex items-center justify-center text-lg shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            <div class="min-w-0">
+                                <p class="text-xs text-velvet-700/75">البريد الإلكتروني الرسمي للمشروع</p>
+                                <p class="font-bold text-sm truncate" dir="ltr">nabamayreh122@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="bg-velvet-950 text-lavender-200 py-12 border-t border-champagne-400/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-right">
+            <div>
+                <p class="font-editorial text-2xl font-bold text-white">روح الورود <span class="text-champagne-400">ROOH ROSES</span></p>
+                <p class="text-xs text-lavender-200/80 mt-1">
+                    إعداد الطالبة: <strong>نبأ عمايره</strong> • الصف الثاني ثانوي BTEC – أعمال • <strong>مدرسة كفرالماء الثانوية الشاملة للبنات</strong>
+                </p>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/962775340403" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-full bg-emerald-600/20 border border-emerald-500/40 text-emerald-300 text-xs font-bold hover:bg-emerald-600 hover:text-white transition-colors">
+                    واتساب: <span dir="ltr">0775340403</span>
+                </a>
+                <a href="https://instagram.com/roohroses" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-full bg-white/10 border border-champagne-400/30 text-champagne-200 text-xs font-bold hover:bg-velvet-700 transition-colors">
+                    <span dir="ltr">@roohroses</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- حقيبة الطلبات المنزلقة (WhatsApp Order Bag Drawer) -->
+    <div id="order-drawer" class="fixed inset-0 z-50 hidden justify-end bg-velvet-950/70 backdrop-blur-sm">
+        <div class="bg-white w-full max-w-md h-full flex flex-col justify-between shadow-2xl border-r border-velvet-700/20">
+            <div class="p-6 bg-velvet-900 text-white flex items-center justify-between border-b border-champagne-400/40">
+                <div>
+                    <h3 class="font-editorial text-2xl font-bold">حقيبة طلبات روح الورود</h3>
+                    <p class="text-xs text-champagne-300" dir="ltr">WhatsApp: 0775340403</p>
+                </div>
+                <button type="button" onclick="toggleOrderDrawer()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="flex-1 overflow-y-auto p-6 space-y-5">
+                <div id="bag-items-list" class="space-y-3"></div>
+
+                <div id="bag-customer-box" class="hidden pt-4 border-t border-velvet-700/15 space-y-3">
+                    <label class="block text-xs font-extrabold text-velvet-900">الاسم الكريم *</label>
+                    <input type="text" id="bag-customer-name" placeholder="اكتبي اسمكِ لإرسال الطلب" class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm">
+
+                    <label class="block text-xs font-extrabold text-velvet-900">ملاحظات أو عبارة الإهداء</label>
+                    <textarea id="bag-customer-note" rows="2" placeholder="اكتبي أي تفاصيل إضافية للطلب..." class="w-full px-4 py-3 rounded-xl bg-lavender-50 border border-velvet-700/20 text-sm"></textarea>
+                </div>
+            </div>
+
+            <div id="bag-footer" class="hidden p-6 bg-lavender-100 border-t border-velvet-700/15">
+                <button type="button" onclick="checkoutBagViaWhatsApp()" class="w-full py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shadow-lg flex items-center justify-center gap-2.5 transition-all">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>إرسال الطلب عبر واتساب (0775340403)</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- زر واتساب عائم ثابت -->
+    <a href="https://wa.me/962775340403?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%86%D8%A8%D8%A3%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%B7%D9%84%D8%A8%20%D8%A8%D8%A7%D9%82%D8%A9%20%D9%85%D9%86%20%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D9%88%D8%B1%D9%88%D8%AF%20ROOH%20ROSES" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 left-6 z-40 w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white shadow-2xl flex items-center justify-center text-2xl hover:scale-110 transition-transform" aria-label="تواصل واتساب 0775340403">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- إشعار منبثق -->
+    <div id="atelier-toast" class="fixed bottom-6 right-6 z-50 translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+        <div class="bg-velvet-950 text-champagne-200 px-5 py-3.5 rounded-2xl shadow-xl border border-champagne-400/40 text-xs sm:text-sm font-bold flex items-center gap-2.5">
+            <i class="fa-solid fa-spa text-champagne-400"></i>
+            <span id="atelier-toast-msg"></span>
+        </div>
+    </div>
+
+    <script>
+        const WHATSAPP_INTL = "962775340403";
+        const WHATSAPP_DISPLAY = "0775340403";
+
+        // تحميل ذكي للصور المحلية بجميع الامتدادات المحتملة + شعار فني بديل عند تعذر التحميل
+        function attachSmartImage(imgEl, baseName) {
+            const extensions = [`${baseName}.jpeg`, `${baseName}.jpg`, `${baseName}.png`, `${baseName}.webp`, `${baseName}`];
+            let step = 0;
+
+            function tryNext() {
+                if (step >= extensions.length) {
+                    imgEl.onerror = null;
+                    const svgFallback = encodeURIComponent(`
+                        <svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+                            <defs>
+                                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#2A1238"/>
+                                    <stop offset="100%" stop-color="#4A1D66"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="600" height="750" fill="url(#g)"/>
+                            <circle cx="300" cy="310" r="110" fill="none" stroke="#C8A252" stroke-width="2" stroke-dasharray="6 4"/>
+                            <path d="M300 225 C255 225 225 260 225 305 C225 350 270 380 300 398 C330 380 375 350 375 305 C375 260 345 225 300 225 Z" fill="#C8A252" fill-opacity="0.25" stroke="#C8A252" stroke-width="2.5"/>
+                            <text x="300" y="485" text-anchor="middle" fill="#E3CD96" font-family="serif" font-size="34" font-weight="bold">ROOH ROSES</text>
+                            <text x="300" y="530" text-anchor="middle" fill="#EAE0F5" font-family="sans-serif" font-size="22">روح الورود • تنسيق #${baseName}</text>
+                        </svg>
+                    `);
+                    imgEl.src = `data:image/svg+xml;charset=utf-8,${svgFallback}`;
+                    return;
+                }
+                imgEl.src = extensions[step++];
+            }
+
+            imgEl.onerror = tryNext;
+            tryNext();
+        }
+
+        // بيانات باقات الكتالوج الواقعية (بدون أي أسعار)
+        const lookbookItems = [
+            {
+                id: 1,
+                img: "9",
+                cat: "bouquet",
+                tag: "المجموعة البنفسجية",
+                title: "باقة اللافندر البنفسجي الحريري بتغليف أبيض بحواف ذهبية",
+                desc: "وردة ساتان بنفسجية كبيرة بتفاصيل ناعمة وتغليف أبيض محدد بإطار ذهبي وشريطة ساتان بنفسجية.",
+                aspect: "aspect-[4/5]"
+            },
+            {
+                id: 2,
+                img: "1",
+                cat: "bouquet",
+                tag: "التوقيع الملكي",
+                title: "باقة الساتان المخملي العنابي مع الفراشة الذهبية وتغليف أبيض فاخر",
+                desc: "تشكيلة متكاملة من ورود الساتان العنابية المخملية مزينة بفراشة ذهبية وشريطة عنابية.",
+                aspect: "aspect-[4/4]"
+            },
+            {
+                id: 3,
+                img: "10",
+                cat: "bouquet",
+                tag: "فخامة ملكية",
+                title: "باقة اللافندر البنفسجي بتغليف أسود ملكي وشريطة بنفسجية",
+                desc: "تناغم ساحر بين التغليف الأسود المطفي والوردة البنفسجية الحريرية في المنتصف.",
+                aspect: "aspect-[4/5]"
+            },
+            {
+                id: 4,
+                img: "4",
+                cat: "bouquet",
+                tag: "لمسة لؤلؤية",
+                title: "باقة الساتان الوردي اللؤلؤي المرصعة بحبات اللؤلؤ وتغليف التول",
+                desc: "ورود ساتان وردية يتوسط كل منها لؤلؤة بيضاء مع تغليف تول أبيض ناعم وفيونكة وردية.",
+                aspect: "aspect-[4/4]"
+            },
+            {
+                id: 5,
+                img: "6",
+                cat: "cone",
+                tag: "كون الهدايا",
+                title: "كون هدية الوردة البرونزية الوردية بإطار ذهبي وفيونكة ساتان",
+                desc: "تصميم مخروطي أنيق يجمع بين البساطة والفخامة مع إطار ذهبي وفيونكة ساتان متناسقة.",
+                aspect: "aspect-[4/5]"
+            },
+            {
+                id: 6,
+                img: "7",
+                cat: "cone",
+                tag: "أناقة كلاسيكية",
+                title: "كون هدية الوردة السوداء الملكية بإطار ذهبي وفيونكة سوداء فاخرة",
+                desc: "وردة ساتان سوداء بتفاصيل دقيقة داخل غلاف أبيض بإطار ذهبي وشريطة سوداء لامعة.",
+                aspect: "aspect-[4/4]"
+            },
+            {
+                id: 7,
+                img: "8",
+                cat: "cone",
+                tag: "لون مميز",
+                title: "كون هدية الوردة الزرقاء الملكية بإطار ذهبي وفيونكة زرقاء",
+                desc: "وردة ساتان زرقاء زاهية داخل غلاف أبيض محدد بالذهب مع فيونكة ساتان زرقاء.",
+                aspect: "aspect-[4/5]"
+            },
+            {
+                id: 8,
+                img: "2",
+                cat: "single",
+                tag: "هدية رقيقة",
+                title: "وردة الساتان الوردي الملكي المنفردة مع فراشة وفيونكة حريرية",
+                desc: "وردة ساتان وردية بلمعة حريرية مع فراشة رقيقة وشريطة ساتان طويلة.",
+                aspect: "aspect-[4/4]"
+            },
+            {
+                id: 9,
+                img: "3",
+                cat: "single",
+                tag: "تنسيق ثنائي",
+                title: "ثنائي الورود الساتان (الأزرق السماوي والوردي) مع تنسيق الجبسوفيليا",
+                desc: "تنسيق يجمع بين اللون الأزرق السماوي والوردي مع زهور الجبسوفيليا المجففة وفيونكات ساتان.",
+                aspect: "aspect-[4/5]"
+            }
+        ];
+
+        let orderBag = [];
+
+        // رسم بطاقات الكتالوج غير المتماثلة
+        function renderLookbook(filter = "all") {
+            const grid = document.getElementById("lookbook-grid");
+            grid.innerHTML = "";
+
+            const filtered = filter === "all" ? lookbookItems : lookbookItems.filter((item) => item.cat === filter);
+
+            filtered.forEach((item) => {
+                const inBag = orderBag.find((b) => b.id === item.id);
+                const article = document.createElement("article");
+                article.className = "break-inside-avoid bg-white rounded-[1.85rem] overflow-hidden border border-velvet-700/15 shadow-lg shadow-velvet-900/5 hover:shadow-xl hover:shadow-velvet-900/15 transition-all duration-300 group";
+
+                article.innerHTML = `
+                    <div class="relative ${item.aspect} overflow-hidden bg-lavender-200">
+                        <img data-local-img="${item.img}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <span class="absolute top-4 right-4 px-3.5 py-1 rounded-full bg-velvet-950/85 backdrop-blur-md text-champagne-300 border border-champagne-400/40 text-[11px] font-bold">
+                            ${item.tag}
+                        </span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <h3 class="font-editorial text-xl sm:text-2xl font-bold text-velvet-900 leading-snug">${item.title}</h3>
+                            <p class="text-xs sm:text-sm text-velvet-900/75 mt-2 leading-relaxed">${item.desc}</p>
+                        </div>
+
+                        <div class="pt-3 border-t border-velvet-700/10 flex flex-col sm:flex-row gap-2.5">
+                            <button type="button" onclick="orderSingleBouquet('${item.title.replace(/'/g, "\\'")}')" class="flex-1 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-extrabold transition-colors flex items-center justify-center gap-2 shadow-sm">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>اطلب هذه الباقة عبر واتساب</span>
+                            </button>
+                            <button type="button" onclick="addToOrderBag(${item.id})" class="py-3 px-3.5 rounded-xl ${inBag ? "bg-velvet-900 text-champagne-300" : "bg-lavender-100 hover:bg-lavender-200 text-velvet-900"} text-xs font-bold transition-colors flex items-center justify-center gap-1.5" title="إضافة إلى حقيبة الطلبات">
+                                <i class="fa-solid ${inBag ? "fa-check" : "fa-plus"}"></i>
+                                <span>${inBag ? `مضافة (${inBag.qty})` : "للحقيبة"}</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+
+                grid.appendChild(article);
+                const imgNode = article.querySelector("img[data-local-img]");
+                if (imgNode) attachSmartImage(imgNode, item.img);
+            });
+        }
+
+        // تفعيل أزرار تصفية الكتالوج
+        document.querySelectorAll(".cat-btn").forEach((btn) => {
+            btn.addEventListener("click", () => {
+                document.querySelectorAll(".cat-btn").forEach((b) => {
+                    b.classList.remove("bg-velvet-900", "text-champagne-200", "shadow-sm");
+                    b.classList.add("bg-white", "text-velvet-900", "border", "border-velvet-700/20");
+                });
+                btn.classList.remove("bg-white", "text-velvet-900", "border", "border-velvet-700/20");
+                btn.classList.add("bg-velvet-900", "text-champagne-200", "shadow-sm");
+                renderLookbook(btn.dataset.cat);
+            });
+        });
+
+        // طلب باقة واحدة مباشرة عبر واتساب 0781476385
+        function orderSingleBouquet(bouquetName) {
+            const msg = `مرحباً نبأ، أرغب بطلب الباقة التالية من *روح الورود (ROOH ROSES)*:\n\n• *التصميم المختار:* ${bouquetName}\n\nيرجى تزويدي بتفاصيل التجهيز والتوصيل.`;
+            const waUrl = `https://wa.me/${WHATSAPP_INTL}?text=${encodeURIComponent(msg)}`;
+            window.open(waUrl, "_blank", "noopener,noreferrer");
+            showToast(`جاري فتح واتساب (${WHATSAPP_DISPLAY}) لإرسال طلبكِ`);
+        }
+
+        // إدارة حقيبة الطلبات المتعددة
+        function addToOrderBag(id) {
+            const foundItem = lookbookItems.find((i) => i.id === id);
+            if (!foundItem) return;
+
+            const existing = orderBag.find((b) => b.id === id);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                orderBag.push({ ...foundItem, qty: 1 });
+            }
+
+            updateBagUI();
+            showToast(`تمت إضافة "${foundItem.title}" إلى حقيبة الطلب`);
+        }
+
+        function updateBagQty(id, delta) {
+            const idx = orderBag.findIndex((b) => b.id === id);
+            if (idx === -1) return;
+            orderBag[idx].qty += delta;
+            if (orderBag[idx].qty <= 0) orderBag.splice(idx, 1);
+            updateBagUI();
+        }
+
+        function updateBagUI() {
+            const total = orderBag.reduce((acc, item) => acc + item.qty, 0);
+            document.getElementById("bag-count").textContent = total;
+
+            const activeCat = document.querySelector(".cat-btn.bg-velvet-900")?.dataset.cat || "all";
+            renderLookbook(activeCat);
+
+            const list = document.getElementById("bag-items-list");
+            const customerBox = document.getElementById("bag-customer-box");
+            const footer = document.getElementById("bag-footer");
+
+            if (orderBag.length === 0) {
+                list.innerHTML = `<p class="text-center text-sm text-velvet-700/70 py-10">حقيبة الطلبات فارغة حالياً. اختاري تنسيقاتكِ المفضلة من الكتالوج.</p>`;
+                customerBox.classList.add("hidden");
+                footer.classList.add("hidden");
+                return;
+            }
+
+            list.innerHTML = orderBag.map((item) => `
+                <div class="flex items-center justify-between gap-3 p-3 rounded-2xl bg-lavender-50 border border-velvet-700/15">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-extrabold text-velvet-900 truncate">${item.title}</p>
+                        <p class="text-[11px] text-velvet-700 mt-0.5">الكمية: ${item.qty}</p>
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <button type="button" onclick="updateBagQty(${item.id}, 1)" class="w-7 h-7 rounded-lg bg-white border border-velvet-700/20 font-bold text-xs">+</button>
+                        <button type="button" onclick="updateBagQty(${item.id}, -1)" class="w-7 h-7 rounded-lg bg-white border border-velvet-700/20 font-bold text-xs">-</button>
+                    </div>
+                </div>
+            `).join("");
+
+            customerBox.classList.remove("hidden");
+            footer.classList.remove("hidden");
+        }
+
+        function checkoutBagViaWhatsApp() {
+            if (orderBag.length === 0) return;
+            const name = document.getElementById("bag-customer-name").value.trim();
+            const note = document.getElementById("bag-customer-note").value.trim();
+
+            if (!name) {
+                showToast("يرجى كتابة اسمكِ الكريم قبل الإرسال");
+                document.getElementById("bag-customer-name").focus();
+                return;
+            }
+
+            const summary = orderBag.map((b, i) => `${i + 1}. ${b.title} (العدد: ${b.qty})`).join("\n");
+            let msg = `مرحباً نبأ، طلب جديد من موقع *روح الورود (ROOH ROSES)*:\n\n`;
+            msg += `*الاسم:* ${name}\n`;
+            msg += `*الباقات المختارة:*\n${summary}\n`;
+            if (note) msg += `\n*ملاحظات الإهداء:* ${note}`;
+
+            window.open(`https://wa.me/${WHATSAPP_INTL}?text=${encodeURIComponent(msg)}`, "_blank", "noopener,noreferrer");
+        }
+
+        // منطق استوديو تصميم الهدية المخصصة
+        const studioState = {
+            style: "باقة اللافندر البنفسجي الحريري بحواف ذهبية",
+            wrapping: "تغليف أبيض نقي بحواف ذهبية وشريطة بنفسجية"
+        };
+
+        function selectStudioOption(type, value, btnEl) {
+            studioState[type] = value;
+
+            if (type === "style") {
+                document.querySelectorAll(".studio-style-btn").forEach((b) => {
+                    b.classList.remove("border-2", "border-velvet-900", "bg-lavender-100");
+                    b.classList.add("border", "border-velvet-700/20", "bg-lavender-50/60");
+                });
+                btnEl.classList.remove("border", "border-velvet-700/20", "bg-lavender-50/60");
+                btnEl.classList.add("border-2", "border-velvet-900", "bg-lavender-100");
+            } else {
+                document.querySelectorAll(".studio-wrap-btn").forEach((b) => {
+                    b.classList.remove("border-2", "border-velvet-900", "bg-lavender-100");
+                    b.classList.add("border", "border-velvet-700/20", "bg-white");
+                });
+                btnEl.classList.remove("border", "border-velvet-700/20", "bg-white");
+                btnEl.classList.add("border-2", "border-velvet-900", "bg-lavender-100");
+            }
+
+            updateStudioPreview();
+        }
+
+        function updateStudioPreview() {
+            const occasion = document.getElementById("studio-occasion").value;
+            const city = document.getElementById("studio-city").value.trim();
+            const sender = document.getElementById("studio-sender").value.trim();
+            const recipient = document.getElementById("studio-recipient").value.trim();
+            const cardMsg = document.getElementById("studio-card-msg").value.trim();
+
+            document.getElementById("prev-style").textContent = studioState.style;
+            document.getElementById("prev-wrapping").textContent = studioState.wrapping;
+            document.getElementById("prev-occasion").textContent = occasion;
+            document.getElementById("prev-city").textContent = city || "يُحدد عبر واتساب";
+
+            if (sender && recipient) {
+                document.getElementById("prev-names").textContent = `من ${sender} إلى ${recipient}`;
+            } else if (sender) {
+                document.getElementById("prev-names").textContent = `من ${sender}`;
+            } else {
+                document.getElementById("prev-names").textContent = "لم يُحدد بعد";
+            }
+
+            document.getElementById("prev-card-text").textContent = cardMsg
+                ? `«${cardMsg}»`
+                : "«كل باقة ورد هي حكاية جميلة تعبّر عن المشاعر»";
+        }
+
+        function sendCustomStudioToWhatsApp() {
+            const sender = document.getElementById("studio-sender").value.trim();
+            const recipient = document.getElementById("studio-recipient").value.trim();
+            const occasion = document.getElementById("studio-occasion").value;
+            const city = document.getElementById("studio-city").value.trim();
+            const cardMsg = document.getElementById("studio-card-msg").value.trim();
+
+            if (!sender) {
+                showToast("يرجى إدخال اسمكِ الكريم في استوديو التصميم");
+                document.getElementById("studio-sender").focus();
+                return;
+            }
+
+            let text = `مرحباً نبأ، قمت بتصميم هدية مخصصة عبر موقع *روح الورود (ROOH ROSES)*:\n\n`;
+            text += `• *مُقدِّم الطلب:* ${sender}\n`;
+            if (recipient) text += `• *المُهدى إليه:* ${recipient}\n`;
+            text += `• *التنسيق المختار:* ${studioState.style}\n`;
+            text += `• *طابع التغليف والشريطة:* ${studioState.wrapping}\n`;
+            text += `• *المناسبة:* ${occasion}\n`;
+            if (city) text += `• *المنطقة:* ${city}\n`;
+            if (cardMsg) text += `• *عبارة بطاقة الإهداء:* "${cardMsg}"\n`;
+
+            window.open(`https://wa.me/${WHATSAPP_INTL}?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
+            showToast(`تم تجهيز طلبكِ وفتح واتساب (${WHATSAPP_DISPLAY})`);
+        }
+
+        // قلب بطاقة الهوية ثلاثية الأبعاد
+        function flipBusinessCard() {
+            document.getElementById("business-card-3d").classList.toggle("is-flipped");
+        }
+
+        function toggleOrderDrawer() {
+            updateBagUI();
+            const drawer = document.getElementById("order-drawer");
+            drawer.classList.toggle("hidden");
+            drawer.classList.toggle("flex");
+        }
+
+        function toggleMobileNav() {
+            document.getElementById("mobile-nav").classList.toggle("hidden");
+        }
+
+        let toastTimeout;
+        function showToast(message) {
+            const toast = document.getElementById("atelier-toast");
+            document.getElementById("atelier-toast-msg").textContent = message;
+            toast.classList.remove("translate-y-24", "opacity-0");
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toast.classList.add("translate-y-24", "opacity-0");
+            }, 3200);
+        }
+
+        window.addEventListener("click", (e) => {
+            const drawer = document.getElementById("order-drawer");
+            if (e.target === drawer) toggleOrderDrawer();
+        });
+
+        window.onload = function () {
+            document.querySelectorAll("img[data-local-img]").forEach((img) => {
+                attachSmartImage(img, img.getAttribute("data-local-img"));
+            });
+            renderLookbook("all");
+        };
+    </script>
+</body>
+</html>
